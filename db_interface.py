@@ -3,6 +3,7 @@ import sqlite3
 import time
 
 import cfg
+from cfg import logger
 
 class UserDB(object):
     __db_path = cfg.g_user_db_path
@@ -20,12 +21,6 @@ class UserDB(object):
         return (len(data) < resolved_len)
 
 
-    #def __is_existing_license_key(self, license_key: str) -> bool:
-    #    if not __check_for_resolved_symbol(license_key):
-    #        raise cfg.g_hacker_string_warning        
-    #    return __get_by_name("license_key")
-
-
     # Should return the all data about user by license key
     # Else return empty list 
     def __get_row_by_license_key(self, license_key: str) -> tuple:
@@ -39,9 +34,10 @@ class UserDB(object):
             request = "SELECT %s FROM %s WHERE %s = '%s'" % (row, table_name, column_name, license_key)
             cursor.execute(request)
             user_row = cursor.fetchone()      
-            print(user_row)
+            logger.debug(user_row)
         except sqlite3.DatabaseError as err:
-            print("Error: ", err)
+            logger.error(license_key)
+            logger.error(err)
             time.sleep(cfg.g_error_sleep_sec)
 
         conn.close()
@@ -49,7 +45,8 @@ class UserDB(object):
         return user_row
 
     
-    def __activate_user_by_id(self, id_db: int, hwid_db: str, expiration_date: datetime) -> None:
+    def __activate_user_by_id(self, id_db: int
+                              , hwid_db: str, expiration_date: datetime) -> None:
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
         try:
@@ -68,7 +65,10 @@ class UserDB(object):
         
             cursor.execute(request)
         except sqlite3.DatabaseError as err:
-            print("Error: ", err)    
+            symbol = cfg.separateSymbol
+            user_metadata = symbol.join([str(id_db), hwid_db, expiration_date])
+            logger.error(user_metadata)
+            logger.error(err)
             time.sleep(cfg.g_error_sleep_sec)
         else:
             conn.commit()
@@ -76,15 +76,15 @@ class UserDB(object):
     
 
     def get_user_state(self, license_key: str, hwid: str, ip: str) -> str:
-        print("DBG")
+        # THE MAIN CHECK FOR THE SQL INJECTION
         # Check for hacking the input data
-        if not self.__check_for_resolved_symbol(license_key, 
+        if not (self.__check_for_resolved_symbol(license_key, 
                             cfg.g_resolved_symbols_for_key, 
                             cfg.g_max_license_key_len
                         ) and self.__check_for_resolved_symbol(
                             hwid,
                             cfg.g_resolved_symbols_for_hwid,
-                            cfg.g_max_license_hwid_len): 
+                            cfg.g_max_license_hwid_len)): 
             return cfg.g_user_state_hacker
         
         # Parsing the SQL row
@@ -93,12 +93,13 @@ class UserDB(object):
         if len(user_row) == 0:
             return cfg.g_user_state_wrong_license_key
 
-        id_db = user_row[int(cfg.db_rows.ID)]
-        hwid_db = user_row[cfg.db_rows.HWID]
-        validity_days_db = user_row[cfg.db_rows.VALIDITY_DAYS]
+        id_db = int(user_row[int(cfg.db_rows.ID)])
+        hwid_db = str(user_row[cfg.db_rows.HWID])
+        validity_days_db = int(user_row[cfg.db_rows.VALIDITY_DAYS])
         expiration_date = user_row[cfg.db_rows.EXPIRATION_DATE]
         current_date = datetime.datetime.now()
-                
+        
+        logger.debug(user_row)
         # Check hwid
         if hwid_db == None:
             # Add hwid user to db
@@ -108,7 +109,8 @@ class UserDB(object):
         elif hwid != hwid_db:
             return cfg.g_user_state_other_pc
 
-        # Check of expiration date
+        # HWID in db
+        # Check the expiration date
         expiration_date_obj = datetime.datetime.strptime(expiration_date, '%Y-%m-%d %H:%M:%S.%f')
         if current_date < expiration_date_obj:
             return cfg.g_user_state_ok

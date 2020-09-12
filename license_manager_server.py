@@ -5,19 +5,21 @@ import socket
 import time
 
 import cfg
+from cfg import logger
 import request_handler
+
 
 class EchoHandler(asyncore.dispatcher_with_send):
     def handle_read(self):
         for attempt in range(cfg.g_max_attempts):
             try:
-                data = self.recv(4096)
-                #if data == b"close" or data == b"close\n":
-                #    self.close()      
+                data = self.recv(cfg.g_count_of_received_symbols)    
+                logger.debug(data)
                 response = request_handler.processingRequest(data)
-                print(response)
+                logger.debug(response)
                 self.send(response + b'\0')                
-            except Exception:
+            except Exception as err:
+                logger.error(err)
                 time.sleep(cfg.g_error_sleep_sec)
             else:
                 break
@@ -35,32 +37,26 @@ class EchoServer(asyncore.dispatcher):
         pair = self.accept()
         if pair is not None:
             sock, addr = pair
-            print('conn', addr)
+            logger.debug('conn ' + str(addr))
             handler = EchoHandler(sock)
 
 
 if __name__ == "__main__": 
-    # FAKE-UNIT TEST
-    # data = b'mo|1337-7331|deadbeaf'
-    data = b'mo|1337-7331|1234-5678'
-    response = request_handler.processingRequest(data)
-    print(response)
-    exit(0)
-    # DELETE
+    ## FAKE-UNIT TEST
+    ## data = b'mo|1337-7331|deadbeaf'
+    #data = b'mo|12|beefdea'
+    #response = request_handler.processingRequest(data)
+    #logger.debug(response)
+    #exit(0)
+    ## DELETE
 
     while True:
-        # time.sleep(0.1)
-        try:
-            print("Started")
+        try:            
+            logger.info("Server is started")
             server = EchoServer(cfg.HOST, cfg.PORT)
             asyncore.loop()
 
         except Exception as err:
-            print("Exception!!!")
-            logData = str(time.localtime())
-            logData += "| Exception!!! | "
-            logData += str(err)
-            with open("log.txt", 'a') as logFile:
-                logFile.write(logData + '\n')
+            logger.error(err)
             time.sleep(cfg.g_error_sleep_sec)
 

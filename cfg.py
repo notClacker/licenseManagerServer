@@ -1,7 +1,10 @@
+from logger import logger
+
 # data to configurate server to working
 separateSymbol = '|'
 HOST = '0.0.0.0'
 PORT = 2222
+g_count_of_received_symbols = 100
 g_user_db_path = "user_db.sql"
 
 # security variables
@@ -10,11 +13,11 @@ g_hacker_string_warning = "hacker"
 g_max_attempts = 10
 
 g_user_state_ok = "ok"
-g_user_state_outdated_license_key = "outdated"
+g_user_state_outdated_license_key = "outdated_license_key"
 g_user_state_wrong_license_key = "wrong_license_key"
 g_user_state_other_pc = "other_pc"
-g_user_state_hacker = "hacker_pc"
-g_user_state_undefined = "undefined"
+g_user_state_hacker = "hacker"
+g_user_state_undefined = "undefined_behavior"
 
 class db_rows(object):
     ID = 0
@@ -43,7 +46,7 @@ class data_to_buyers(object):
     encrypted_key = '789'
 
     @staticmethod
-    def get_main_offset():
+    def get_main_offset() -> str:
         return main_offset
 
 

@@ -1,0 +1,453 @@
+[WARNING] - 2020-09-12 12:00:16,262 - root - : [b'ahahah\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:00:16,263 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:00:30,736 - root - : asdlnk|asdnlas
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:00:30,737 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:37
+[WARNING] - 2020-09-12 12:02:08,513 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:02:08,514 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:02:10,749 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:02:10,750 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:02:13,810 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:02:13,811 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:02:17,392 - root - : sad|sad|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:02:17,393 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:37
+[WARNING] - 2020-09-12 12:02:33,934 - root - : asd|zxc|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:02:33,935 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:37
+[WARNING] - 2020-09-12 12:03:42,170 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:03:42,170 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[ERROR] - 2020-09-12 12:03:58,134 - root - : ' or true in /media/sf_commonVB/licenseManagerServer/db_interface.py:39
+[ERROR] - 2020-09-12 12:03:58,135 - root - : unrecognized token: "'" in /media/sf_commonVB/licenseManagerServer/db_interface.py:40
+[WARNING] - 2020-09-12 12:03:58,177 - root - : ' or true|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:03:58,178 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:37
+[ERROR] - 2020-09-12 12:04:13,699 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,700 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,743 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,744 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,788 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,789 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,833 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,834 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,877 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,878 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,921 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,922 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:13,965 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:13,967 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:14,010 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:14,011 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:14,054 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:14,056 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[ERROR] - 2020-09-12 12:04:14,099 - root - : mo|' or true;|1234
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:81
+[ERROR] - 2020-09-12 12:04:14,101 - root - : ('You can only execute one statement at a time.',) in /media/sf_commonVB/licenseManagerServer/request_handler.py:82
+[WARNING] - 2020-09-12 12:05:12,045 - root - : sadja|asdasd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:05:12,046 - root - : sadja|asdasd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:05:12,047 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:06:27,138 - root - : asd|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:06:27,139 - root - : asd|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:06:27,140 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:06:31,946 - root - : 123|asd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:06:31,947 - root - : 123|asd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:06:31,948 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:06:37,078 - root - : 123|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:06:37,079 - root - : 123|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:06:37,080 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:06:42,952 - root - : 123|123|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:06:42,953 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:06:57,061 - root - : 123|as
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:06:57,062 - root - : 123|as
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:06:57,063 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:07:02,569 - root - : 123|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:07:02,570 - root - : 123|123
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:07:02,571 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:07:07,227 - root - : 123|123|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:07:07,228 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:07:22,209 - root - : [b'\t\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:07:22,210 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:07:33,367 - root - : 12345|asd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:07:33,368 - root - : 12345|asd
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:07:33,369 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:07:41,382 - root - : [b'\t\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:07:41,383 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:07:48,718 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:07:48,719 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:08:14,460 - root - : 12345|12345
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:08:14,461 - root - : 12345|12345
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:08:14,461 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:08:22,975 - root - : 12345|12345|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:08:22,975 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:08:24,802 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:08:24,803 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:08:36,581 - root - : 12345|12345|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:08:36,582 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:08:52,077 - root - : [b'\t\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:08:52,078 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:09:26,300 - root - : [b'\t\t\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:09:26,300 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:09:35,163 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:09:35,164 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:09:50,506 - root - : 1|1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:09:50,507 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:11:06,892 - root - : 1|1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:11:06,893 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:12:52,957 - root - : 1|1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:12:52,958 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:13:18,411 - root - : aaa|aaa|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:13:18,411 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:37
+[WARNING] - 2020-09-12 12:13:41,586 - root - : 1|aa|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:13:41,587 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:14:48,979 - root - : 1|aaa|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:14:48,980 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:15:26,047 - root - : 5678|aaa|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[WARNING] - 2020-09-12 12:15:26,048 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-12 12:16:28,141 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:16:28,142 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:16:29,279 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:16:29,279 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:17:39,386 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:17:39,387 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:17:46,188 - root - : 5678|qwe
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:17:46,189 - root - : 5678|qwe
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:17:46,190 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[WARNING] - 2020-09-12 12:18:07,377 - root - : 2|aaas
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:35
+[CRITICAL] - 2020-09-12 12:18:07,378 - root - : 2|aaas
+|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:46
+[CRITICAL] - 2020-09-12 12:18:07,379 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:47
+[ERROR] - 2020-09-12 12:24:02,956 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:02,998 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,039 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,081 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,122 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,165 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,207 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,248 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,289 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,331 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,373 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,415 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,457 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,498 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,540 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,581 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,622 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,663 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,705 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,746 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,788 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,829 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,874 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,921 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:03,971 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,012 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,054 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,097 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,138 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,183 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,224 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,266 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,307 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,349 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,391 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,433 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,475 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,534 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,576 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,618 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,659 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,704 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,747 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,789 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,830 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,872 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,914 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,956 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:04,997 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,039 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,080 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,121 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,166 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,208 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,249 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,291 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,333 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,376 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,418 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,460 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,503 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,545 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,588 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,630 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,672 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,713 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,754 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,796 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,840 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,882 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,923 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:05,964 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,011 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,063 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,157 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,206 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,249 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,290 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,332 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,373 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,414 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,455 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,506 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,547 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,590 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,642 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,694 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,742 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,785 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,840 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,892 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:06,946 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,006 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,051 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,096 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,148 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,202 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,243 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,285 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,326 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,369 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,411 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,453 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,494 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,536 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,578 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,621 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,663 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,705 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,746 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,788 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,830 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,872 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,916 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:07,958 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,000 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,042 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,084 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,126 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,168 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,210 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,253 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,294 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,336 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,378 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,420 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,461 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,503 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,545 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,587 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,629 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,672 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,714 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,755 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,796 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,840 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,887 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,929 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:08,972 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:09,014 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[ERROR] - 2020-09-12 12:24:09,056 - root - : name 'g_count_of_received_symbols' is not defined in license_manager_server.py:22
+[WARNING] - 2020-09-12 12:24:30,336 - root - : [b'\r', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:30,337 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:32,530 - root - : [b'\r', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:32,531 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:36,096 - root - : [b'\r', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:36,097 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:37,334 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:37,335 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:38,250 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:38,251 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:38,750 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:38,751 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:38,801 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:38,802 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:38,852 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:38,853 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:38,903 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:38,904 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:40,107 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:40,108 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:40,328 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:40,329 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:40,733 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:40,734 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:42,646 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:42,647 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:24:43,199 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:24:43,200 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:21,149 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:21,150 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:21,380 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:21,381 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:21,570 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:21,570 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:21,866 - root - : [b'a\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:21,867 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:22,075 - root - : [b's\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:22,076 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:22,331 - root - : [b'd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:22,332 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:22,521 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:22,522 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:22,681 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:22,682 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:22,855 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:22,855 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:23,015 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:23,016 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:23,246 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:23,247 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:23,549 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:23,550 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:23,705 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:23,705 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:23,925 - root - : [b'qew\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:23,925 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:24,117 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:24,118 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:24,377 - root - : [b'eqw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:24,378 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:24,567 - root - : [b'ew\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:24,568 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:24,747 - root - : [b'q\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:24,748 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:24,936 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:24,937 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:25,128 - root - : [b'q\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:25,129 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:25,343 - root - : [b'we\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:25,344 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:25,543 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:25,544 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:25,744 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:25,744 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:25,956 - root - : [b'e\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:25,956 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:26,219 - root - : [b'qew\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:26,219 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:26,489 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:26,490 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:26,701 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:26,702 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:26,940 - root - : [b'sad\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:26,940 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:27,192 - root - : [b'sad\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:27,193 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:27,424 - root - : [b'a\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:27,425 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:27,727 - root - : [b'ds\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:27,728 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:28,050 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:28,051 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:28,278 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:28,278 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:28,554 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:28,555 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:28,861 - root - : [b'xzc\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:28,861 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:29,063 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:29,063 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:29,298 - root - : [b'cxz\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:29,299 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:29,540 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:29,541 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:29,845 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:29,846 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:30,060 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:30,061 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:30,345 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:30,346 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:30,542 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:30,543 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:30,844 - root - : [b'sa\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:30,845 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:31,208 - root - : [b'd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:31,209 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:31,614 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:31,615 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:31,944 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:31,945 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:32,208 - root - : [b'eqw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:32,209 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:32,455 - root - : [b'e\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:32,456 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:32,731 - root - : [b'qewqwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:32,732 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:33,000 - root - : [b'qw\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:33,001 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:33,229 - root - : [b'weq\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:33,230 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:33,612 - root - : [b'qew\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:33,613 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:33,956 - root - : [b'a\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:33,957 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:34,222 - root - : [b'sd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:34,223 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:34,513 - root - : [b'sad\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:34,514 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:34,792 - root - : [b'dsa\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:34,793 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:35,068 - root - : [b'sda\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:35,069 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:35,367 - root - : [b'ads\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:35,368 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:35,646 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:35,647 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:35,853 - root - : [b'as\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:35,854 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:36,066 - root - : [b'd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:36,067 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:36,329 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:36,329 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:36,547 - root - : [b'as\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:36,548 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:36,776 - root - : [b'd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:36,777 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:37,067 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:37,068 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:37,341 - root - : [b'asd\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:37,342 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:37,719 - root - : [b'zx\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:37,720 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:38,003 - root - : [b'c\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:38,003 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:38,278 - root - : [b'zxc\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:38,279 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 12:26:38,503 - root - : [b'z\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 12:26:38,504 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
