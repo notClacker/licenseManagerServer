@@ -4,38 +4,24 @@ import asyncore
 import socket
 import time
 
-HOST = '0.0.0.0'
-PORT = 2222
-
-main_offset = 0x13377331
-
-def processingRequest(request):
-    response = request
-    #tmp = bytes(request, 'utf-8')
-    #splitedRequest = tmp.split('|')
-    # if len(splitedRequest) > 1:
-    #     requestType = splitedRequest[0]
-    #     requestValue = splitedRequest[1]
-    #     if requestType == b'mo':
-    #         response = str(main_offset)
-
-    return response
+import cfg
+import request_handler
 
 class EchoHandler(asyncore.dispatcher_with_send):
     def handle_read(self):
-        data = self.recv(4096)
-        if data == b"close" or data == b"close\n":
-            self.close()
-        # if data == b"restart\n":
-        #     logData = str(time.localtime())
-        #     logData += "| Exception!!! | "
-        #     logData += Exception
-        #     with open("log.txt", 'a') as logFile:
-        #         logFile.write(logData + '\n')
-        #     raise
-        response = processingRequest(data)
-        print(response)
-        self.send(response + b'\0')
+        for attempt in range(cfg.g_max_attempts):
+            try:
+                data = self.recv(4096)
+                #if data == b"close" or data == b"close\n":
+                #    self.close()      
+                response = request_handler.processingRequest(data)
+                print(response)
+                self.send(response + b'\0')                
+            except Exception:
+                time.sleep(cfg.g_error_sleep_sec)
+            else:
+                break
+
 
 class EchoServer(asyncore.dispatcher):
     def __init__(self, host, port):
@@ -43,7 +29,7 @@ class EchoServer(asyncore.dispatcher):
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
         self.set_reuse_addr()
         self.bind((host, port))
-        self.listen(11)
+        self.listen(11)   
 
     def handle_accept(self):
         pair = self.accept()
@@ -52,17 +38,29 @@ class EchoServer(asyncore.dispatcher):
             print('conn', addr)
             handler = EchoHandler(sock)
 
-while True:
-    time.sleep(0.1)
-    try:
-        print("Started")
-        server = EchoServer(HOST, PORT)
-        asyncore.loop()
 
-    except Exception:
-        print("Exception!!!")
-        logData = str(time.localtime())
-        logData += "| Exception!!! | "
-        logData += str(Exception)
-        with open("log.txt", 'a') as logFile:
-            logFile.write(logData + '\n')
+if __name__ == "__main__": 
+    # FAKE-UNIT TEST
+    # data = b'mo|1337-7331|deadbeaf'
+    data = b'mo|1337-7331|1234-5678'
+    response = request_handler.processingRequest(data)
+    print(response)
+    exit(0)
+    # DELETE
+
+    while True:
+        # time.sleep(0.1)
+        try:
+            print("Started")
+            server = EchoServer(cfg.HOST, cfg.PORT)
+            asyncore.loop()
+
+        except Exception as err:
+            print("Exception!!!")
+            logData = str(time.localtime())
+            logData += "| Exception!!! | "
+            logData += str(err)
+            with open("log.txt", 'a') as logFile:
+                logFile.write(logData + '\n')
+            time.sleep(cfg.g_error_sleep_sec)
+
