@@ -35,7 +35,6 @@ def insert_key_and_days_in_db(key: str, days: int):
                     (validity_days, license_key)
                             values (%s);""" % values
         cursor.execute(request)
-        print(values)
     except sqlite3.DatabaseError as err:
         print("THIS KEY IN DB")
     except Exception as err:
@@ -45,9 +44,7 @@ def insert_key_and_days_in_db(key: str, days: int):
     conn.close()
 
 
-def do_job():
-    keys = get_license_keys(cfg.g_count_of_new_license_keys)
-    validity_days = cfg.g_validity_days
+def do_job(count_of_keys: int, validity_days: int) -> None:
+    keys = get_license_keys(count_of_keys)
     for key in keys:
         insert_key_and_days_in_db(key, validity_days)
-    input("Press any key to exit...")
