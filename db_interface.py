@@ -101,7 +101,7 @@ class UserDB(object):
         
         logger.debug(user_row)
         # Check hwid
-        if hwid_db == None:
+        if hwid_db == 'None':
             # Add hwid user to db
             expiration_date = current_date + datetime.timedelta(days=validity_days_db)
             self.__activate_user_by_id(id_db, hwid, expiration_date)

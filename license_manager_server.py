@@ -48,7 +48,7 @@ if __name__ == "__main__":
     #response = request_handler.processingRequest(data)
     #logger.debug(response)
     #exit(0)
-    ## DELETE
+    ## DELETE    
 
     while True:
         try:            

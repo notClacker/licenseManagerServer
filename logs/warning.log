@@ -451,3 +451,29 @@
 [WARNING] - 2020-09-12 12:26:38,279 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
 [WARNING] - 2020-09-12 12:26:38,503 - root - : [b'z\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
 [WARNING] - 2020-09-12 12:26:38,504 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 13:52:54,598 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:65
+[WARNING] - 2020-09-12 13:52:54,598 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 13:55:11,682 - root - : [b'\x1b[A\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 13:55:11,683 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 13:55:12,567 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 13:55:12,568 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[WARNING] - 2020-09-12 14:17:22,808 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-12 14:17:22,809 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73
+[WARNING] - 2020-09-12 16:10:08,803 - root - : b29e3-ed643-a7312-dd5bd-a747a|1234|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-12 16:10:08,804 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[WARNING] - 2020-09-12 16:11:21,702 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-12 16:11:21,703 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73
+[WARNING] - 2020-09-12 16:14:05,264 - root - : b29e3-ed643-a7312-dd5bd-a747a|1234|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-12 16:14:05,265 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[WARNING] - 2020-09-13 06:31:10,167 - root - : aa123a|1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:10,168 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-13 06:31:24,519 - root - : ||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:24,519 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-13 06:31:28,810 - root - : ||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:28,811 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-13 06:31:34,832 - root - : |1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:34,833 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[WARNING] - 2020-09-13 06:32:07,767 - root - : 1||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:32:07,768 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[WARNING] - 2020-09-13 06:32:16,564 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-13 06:32:16,567 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73

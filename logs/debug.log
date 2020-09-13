@@ -565,3 +565,130 @@
 [WARNING] - 2020-09-12 12:26:38,503 - root - : [b'z\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
 [WARNING] - 2020-09-12 12:26:38,504 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
 [DEBUG] - 2020-09-12 12:26:38,504 - root - : b'0' in license_manager_server.py:19
+[INFO] - 2020-09-12 13:52:41,092 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 13:52:52,763 - root - : conn ('127.0.0.1', 51756) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 13:52:54,597 - root - : b'qwe\n' in ./license_manager_server.py:17
+[WARNING] - 2020-09-12 13:52:54,598 - root - : [b'qwe\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:65
+[WARNING] - 2020-09-12 13:52:54,598 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[DEBUG] - 2020-09-12 13:52:54,599 - root - : b'0' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:53:00,281 - root - : b'mo|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:53:00,292 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:53:00,292 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:53:00,298 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:29
+[DEBUG] - 2020-09-12 13:53:00,298 - root - : b'255' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 13:54:51,966 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 13:54:54,638 - root - : conn ('127.0.0.1', 51758) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 13:54:59,276 - root - : b'mo1|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:54:59,281 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:54:59,281 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:54:59,287 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:30
+[DEBUG] - 2020-09-12 13:54:59,288 - root - : b'251' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:55:11,681 - root - : b'\x1b[A\n' in ./license_manager_server.py:17
+[WARNING] - 2020-09-12 13:55:11,682 - root - : [b'\x1b[A\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 13:55:11,683 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[DEBUG] - 2020-09-12 13:55:11,683 - root - : b'0' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:55:12,567 - root - : b'\n' in ./license_manager_server.py:17
+[WARNING] - 2020-09-12 13:55:12,567 - root - : [b'\n', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:66
+[WARNING] - 2020-09-12 13:55:12,568 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:67
+[DEBUG] - 2020-09-12 13:55:12,569 - root - : b'0' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 13:56:25,799 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 13:56:26,771 - root - : conn ('127.0.0.1', 51760) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 13:56:30,636 - root - : b'mo0|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:56:30,641 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:56:30,641 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:56:30,647 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 13:56:30,648 - root - : b'250' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:56:35,519 - root - : b'mo2|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:56:35,522 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:56:35,523 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:56:35,523 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 13:56:35,524 - root - : b'252' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:56:46,336 - root - : b'mo4|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:56:46,339 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:56:46,339 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:56:46,339 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 13:56:46,340 - root - : b'0' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 13:56:51,387 - root - : b'ek|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 13:56:51,389 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 13:56:51,389 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 13:56:51,390 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 13:56:51,390 - root - : b'0' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 14:17:22,807 - root - : b'' in ./license_manager_server.py:17
+[WARNING] - 2020-09-12 14:17:22,808 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-12 14:17:22,809 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73
+[DEBUG] - 2020-09-12 14:17:22,810 - root - : b'0' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 16:09:46,132 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 16:10:07,192 - root - : conn ('127.0.0.1', 51780) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 16:10:08,797 - root - : b'mo1|b29e3-ed643-a7312-dd5bd-a747a|1234|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 16:10:08,802 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 16:10:08,802 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[WARNING] - 2020-09-12 16:10:08,803 - root - : b29e3-ed643-a7312-dd5bd-a747a|1234|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-12 16:10:08,804 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[DEBUG] - 2020-09-12 16:10:08,805 - root - : b'undefined_behavior' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-12 16:11:21,702 - root - : b'' in ./license_manager_server.py:17
+[WARNING] - 2020-09-12 16:11:21,702 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-12 16:11:21,703 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73
+[DEBUG] - 2020-09-12 16:11:21,704 - root - : b'0' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 16:13:46,642 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 16:13:49,150 - root - : conn ('127.0.0.1', 51782) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 16:14:05,259 - root - : b'mo1|b29e3-ed643-a7312-dd5bd-a747a|1234|qwe\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 16:14:05,263 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 16:14:05,264 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[WARNING] - 2020-09-12 16:14:05,264 - root - : b29e3-ed643-a7312-dd5bd-a747a|1234|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-12 16:14:05,265 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[DEBUG] - 2020-09-12 16:14:05,265 - root - : b'undefined_behavior' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 13:15:12,305 - root - : Server is started in C:\Users\notclacker\Desktop\commonVB\licenseManagerServer\license_manager_server.py:56
+[INFO] - 2020-09-12 13:15:23,135 - root - : Server is started in C:\Users\notclacker\Desktop\commonVB\licenseManagerServer\license_manager_server.py:56
+[DEBUG] - 2020-09-12 13:15:57,848 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in C:\Users\notclacker\Desktop\commonVB\licenseManagerServer\db_interface.py:37
+[DEBUG] - 2020-09-12 13:16:14,335 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in C:\Users\notclacker\Desktop\commonVB\licenseManagerServer\db_interface.py:102
+[DEBUG] - 2020-09-12 16:16:29,018 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 16:16:29,019 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', None, 1, None) in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 16:16:29,046 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 16:16:31,537 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', 1234, 1, '2020-09-13 16:16:29.019304') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 16:16:31,538 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', 1234, 1, '2020-09-13 16:16:29.019304') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 16:16:31,543 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[INFO] - 2020-09-12 16:16:42,371 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-12 16:16:44,929 - root - : conn ('127.0.0.1', 51784) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-12 16:16:52,644 - root - : b'mo1|b29e3-ed643-a7312-dd5bd-a747a|1234|qwe \n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-12 16:16:52,647 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', 1234, 1, '2020-09-13 16:16:29.019304') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-12 16:16:52,648 - root - : (38, 'b29e3-ed643-a7312-dd5bd-a747a', 1234, 1, '2020-09-13 16:16:29.019304') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-12 16:16:52,653 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-12 16:16:52,654 - root - : b'251' in ./license_manager_server.py:19
+[INFO] - 2020-09-12 16:22:12,360 - root - : Server is started in ./license_manager_server.py:55
+[INFO] - 2020-09-13 06:30:30,581 - root - : Server is started in ./license_manager_server.py:55
+[DEBUG] - 2020-09-13 06:30:52,612 - root - : conn ('127.0.0.1', 51798) in ./license_manager_server.py:40
+[DEBUG] - 2020-09-13 06:30:56,993 - root - : b'mo3|1|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:30:57,002 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-13 06:30:57,002 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[INFO] - 2020-09-13 06:30:57,008 - root - : ok in /media/sf_commonVB/licenseManagerServer/request_handler.py:36
+[DEBUG] - 2020-09-13 06:30:57,008 - root - : b'253' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:31:10,164 - root - : b'mo3|aa123a|1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:31:10,166 - root - : None in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[WARNING] - 2020-09-13 06:31:10,167 - root - : aa123a|1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:10,168 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[DEBUG] - 2020-09-13 06:31:10,169 - root - : b'wrong_license_key' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:31:24,515 - root - : b'mo3|||\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:31:24,518 - root - : None in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[WARNING] - 2020-09-13 06:31:24,519 - root - : ||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:24,519 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[DEBUG] - 2020-09-13 06:31:24,520 - root - : b'wrong_license_key' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:31:28,806 - root - : b'|||||\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:31:28,809 - root - : None in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[WARNING] - 2020-09-13 06:31:28,810 - root - : ||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:28,811 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[DEBUG] - 2020-09-13 06:31:28,812 - root - : b'wrong_license_key' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:31:34,828 - root - : b'mo3||1|\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:31:34,831 - root - : None in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[WARNING] - 2020-09-13 06:31:34,832 - root - : |1|127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:31:34,833 - root - : wrong_license_key in /media/sf_commonVB/licenseManagerServer/request_handler.py:43
+[DEBUG] - 2020-09-13 06:31:34,834 - root - : b'wrong_license_key' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:32:07,763 - root - : b'mo3|1||\n' in ./license_manager_server.py:17
+[DEBUG] - 2020-09-13 06:32:07,766 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:37
+[DEBUG] - 2020-09-13 06:32:07,766 - root - : (8, 1, 1, 2, '2020-09-14 12:09:33.836092') in /media/sf_commonVB/licenseManagerServer/db_interface.py:102
+[WARNING] - 2020-09-13 06:32:07,767 - root - : 1||127.0.0.1 in /media/sf_commonVB/licenseManagerServer/request_handler.py:41
+[WARNING] - 2020-09-13 06:32:07,768 - root - : other_pc in /media/sf_commonVB/licenseManagerServer/request_handler.py:49
+[DEBUG] - 2020-09-13 06:32:07,769 - root - : b'other_pc' in ./license_manager_server.py:19
+[DEBUG] - 2020-09-13 06:32:16,563 - root - : b'' in ./license_manager_server.py:17
+[WARNING] - 2020-09-13 06:32:16,564 - root - : [b'', '127.0.0.1'] in /media/sf_commonVB/licenseManagerServer/request_handler.py:72
+[WARNING] - 2020-09-13 06:32:16,567 - root - : hacker in /media/sf_commonVB/licenseManagerServer/request_handler.py:73
+[DEBUG] - 2020-09-13 06:32:16,570 - root - : b'0' in ./license_manager_server.py:19

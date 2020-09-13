@@ -6,6 +6,7 @@ HOST = '0.0.0.0'
 PORT = 2222
 g_count_of_received_symbols = 100
 g_user_db_path = "user_db.sql"
+g_empty_response = '0'
 
 # security variables
 g_error_sleep_sec = 0.04        
@@ -33,21 +34,23 @@ g_db_column_id = "user_id"
 g_db_column_hwid = "hwid"
 g_db_column_expiration_date = "expiration_date"
 
-g_resolved_symbols_for_hwid = "0123456789-abcdef"
+g_resolved_symbols_for_hwid =   "0123456789-abcdef"   # hexdigits + '-'
 g_max_license_hwid_len = 22  # example of hwid is BFEBFBFF00040651
 
-g_resolved_symbols_for_key = "0123456789-abcdef"
+g_resolved_symbols_for_key =    "0123456789-abcdef"    # hexdigits + '-'
 g_max_license_key_len = 30  # example of key is 01234-56789-abcde-f0123-45678
 
 
 # data for buyers
+g_main_offsets = ['250', '251', '252', '253']
 class data_to_buyers(object):    
-    main_offset = '255'          #0xFF
+    #main_offset = '255'          #0xFF
     encrypted_key = '789'
 
     @staticmethod
-    def get_main_offset() -> str:
-        return main_offset
+    def get_main_offset(index) -> str:
+        main_offsets = g_main_offsets
+        return main_offsets[index]
 
 
 
