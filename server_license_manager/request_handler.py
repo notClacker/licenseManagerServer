@@ -42,6 +42,7 @@ def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str
             return cfg.g_user_state_outdated_license_key
         elif user_state == cfg.g_user_state_other_pc:
             logger.warning(cfg.g_user_state_other_pc)
+            return cfg.g_user_state_other_pc
         elif user_state == cfg.g_user_state_hacker:
             logger.critical(user_metadata)
             logger.critical(cfg.g_user_state_hacker)

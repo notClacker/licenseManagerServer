@@ -58,17 +58,3 @@ type_snav_full = ("type_1", (dict([map_base, player_base])))
 type_admin = ("type_admin", (offsets))
 
 subcribe_types = dict([type_snav_trial, type_snav_full])
-
-
-g_main_offsets = ['250', '251', '252', '253']
-class data_to_buyers(object):    
-    #main_offset = '255'          #0xFF
-    encrypted_key = '789'
-
-    @staticmethod
-    def get_main_offset(index) -> str:
-        main_offsets = g_main_offsets
-        return main_offsets[index]
-
-
-
