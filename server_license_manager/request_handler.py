@@ -12,11 +12,12 @@ def remember_hacker():
 
 
 def get_response_by_request(request: str) -> str:
-    response = cfg.g_empty_response
-    
-
-    return response
-
+    response = cfg.offsets.get(request)
+    if response != None:
+        return response
+    else:
+        logger.critical("REQUEST NOT IN OFFSETS")
+        return cfg.g_empty_response
 
 def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str) -> str:
     # user_db = db_interface.UserDB()

@@ -23,6 +23,7 @@ g_user_state_wrong_license_key = "wrong_license_key"
 g_user_state_other_pc = "other_pc"
 g_user_state_hacker = "hacker"
 g_user_state_undefined = "undefined_behavior"
+g_state_coder_error = "coder_error"
 
 class db_rows(object):
     ID = 0
@@ -47,13 +48,17 @@ g_resolved_symbols_for_key =    "0123456789-abcdef"    # hexdigits + '-'
 g_max_license_key_len = 30  # example of key is 01234-56789-abcde-f0123-45678
 
 
-#map_base = ("mo0", "332241")
-#player_base = ("mo1", "445566")
+map_base = ("mo0", "4455")
+player_base = ("mo1", "9889")
+admin_base = ("mo3", "1337")
+offsets = dict([map_base, player_base, admin_base])
 
-#type_snav_trial = ("type_0", dict(map_base))
-#type_snav_full = ("type_1", dict(map_base, player_base))
+type_snav_trial = ("type_0", (dict([map_base])))
+type_snav_full = ("type_1", (dict([map_base, player_base])))
+type_admin = ("type_admin", (offsets))
 
-#g_allowed_commands_by_subscribe_type = dict(type_snav_trial, type_snav_full)
+subcribe_types = dict([type_snav_trial, type_snav_full])
+
 
 g_main_offsets = ['250', '251', '252', '253']
 class data_to_buyers(object):    

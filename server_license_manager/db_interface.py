@@ -117,13 +117,13 @@ def get_user_state(request: str, license_key: str
         return cfg.g_user_state_outdated_license_key
 
     # Check for BUG (subscribe_type existing)
-    allowed_cmds = cfg.g_allowed_commands_by_subscribe_type.get(subscribe_type)
-    if allowed_cmds == None:                
+    current_type = cfg.subcribe_types.get(subscribe_type)
+    if current_type == None:                
         logger.critical("Subscribe type DOESN'T exist")
-        return cfg.g_user_state_undefined
+        return cfg.g_state_coder_error
 
     # Check the subscribe_type
-    if allowed_cmds.get(request) != None:
+    if current_type.get(request) != None:
         return cfg.g_user_state_ok
     else:
         return cfg.g_user_state_other_subscribe_type
