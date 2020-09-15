@@ -13,25 +13,15 @@ def remember_hacker():
 
 def get_response_by_request(request: str) -> str:
     response = cfg.g_empty_response
-    if request == "mo0":
-        #response = cfg.data_to_buyers.main_offset
-        response = cfg.data_to_buyers.get_main_offset(0)
-    elif request == "mo1":
-        response = cfg.data_to_buyers.get_main_offset(1)
-    elif request == "mo2":
-        response = cfg.data_to_buyers.get_main_offset(2)
-    elif request == "mo3":
-        response = cfg.data_to_buyers.get_main_offset(3)
-    elif request == "ek":
-        # response = str(cfg.encrypted_key)
-        pass
+    
 
     return response
 
 
 def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str) -> str:
-    user_db = db_interface.UserDB()
-    user_state = user_db.get_user_state(license_key, hwid, ip)
+    # user_db = db_interface.UserDB()
+    # user_state = user_db.get_user_state(request, license_key, hwid, ip)    
+    user_state = db_interface.get_user_state(request, license_key, hwid, ip)
 
     if user_state == cfg.g_user_state_ok:
         logger.info(cfg.g_user_state_ok)
@@ -43,12 +33,14 @@ def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str
         if user_state == cfg.g_user_state_wrong_license_key:
             logger.warning(cfg.g_user_state_wrong_license_key)
             return cfg.g_user_state_wrong_license_key
+        elif user_state == cfg.g_user_state_other_subscribe_type:
+            logger.warning(cfg.g_user_state_other_subscribe_type)
+            return cfg.g_user_state_other_subscribe_type
         elif user_state == cfg.g_user_state_outdated_license_key:
             logger.warning(cfg.g_user_state_outdated_license_key)
             return cfg.g_user_state_outdated_license_key
         elif user_state == cfg.g_user_state_other_pc:
             logger.warning(cfg.g_user_state_other_pc)
-            return cfg.g_user_state_other_pc
         elif user_state == cfg.g_user_state_hacker:
             logger.critical(user_metadata)
             logger.critical(cfg.g_user_state_hacker)

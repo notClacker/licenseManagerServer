@@ -1,4 +1,7 @@
-from logger import logger
+try:
+    from logger import logger
+except Exception:
+    from server_license_manager.logger import logger
 
 # data to configurate server to working
 separateSymbol = '|'
@@ -14,6 +17,7 @@ g_hacker_string_warning = "hacker"
 g_max_attempts = 10
 
 g_user_state_ok = "ok"
+g_user_state_other_subscribe_type = "other_subscribe_type"
 g_user_state_outdated_license_key = "outdated_license_key"
 g_user_state_wrong_license_key = "wrong_license_key"
 g_user_state_other_pc = "other_pc"
@@ -26,6 +30,8 @@ class db_rows(object):
     HWID = 2
     VALIDITY_DAYS = 3
     EXPIRATION_DATE = 4
+    SUBSCRIBE_TYPE = 5
+    ROWS_COUNT = 6
 
 g_db_full_row = "*"
 g_db_table_name = "users_licenses"
@@ -41,7 +47,14 @@ g_resolved_symbols_for_key =    "0123456789-abcdef"    # hexdigits + '-'
 g_max_license_key_len = 30  # example of key is 01234-56789-abcde-f0123-45678
 
 
-# data for buyers
+#map_base = ("mo0", "332241")
+#player_base = ("mo1", "445566")
+
+#type_snav_trial = ("type_0", dict(map_base))
+#type_snav_full = ("type_1", dict(map_base, player_base))
+
+#g_allowed_commands_by_subscribe_type = dict(type_snav_trial, type_snav_full)
+
 g_main_offsets = ['250', '251', '252', '253']
 class data_to_buyers(object):    
     #main_offset = '255'          #0xFF
