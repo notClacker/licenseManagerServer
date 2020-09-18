@@ -11,6 +11,10 @@ g_count_of_received_symbols = 100
 g_user_db_path = "user_db.sql"
 g_empty_response = '0'
 
+# Folder cfg
+g_name_of_main_folder = "licenseManagerServer"
+
+
 # security variables
 g_error_sleep_sec = 0.04        
 g_hacker_string_warning = "hacker"

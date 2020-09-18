@@ -8,10 +8,12 @@ import os
 def main_funct():
     current_dir = os.getcwd()
     current_folder = current_dir.split('/')[-1]
-    print(current_folder)
-    os.chdir(current_dir + generator_cfg.g_path_from_script_to_main)
-    print(os.getcwd)
-
+    if current_folder == generator_cfg.g_name_of_main_folder:
+        print("Current folder: ", current_folder)
+        print("Change current folder...")
+        os.chdir(current_dir + generator_cfg.g_path_from_script_to_main)
+        print("Current folder: ", os.getcwd)
+    
     count_of_keys = generator_cfg.g_count_of_new_license_keys 
     print("Enter a COUNT of license keys\nBy default %d: " % (count_of_keys), end="")
     str_count = input()
@@ -24,7 +26,7 @@ def main_funct():
     str_days = input()
     if len(str_days) > 0: 
         validity_days = int(str_count)
-
+    
     subscribe_type = ""
     while (len(subscribe_type) <= 1):
         subscribe_type = input("Enter the subscribe type: ")

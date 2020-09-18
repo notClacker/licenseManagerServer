@@ -42,6 +42,14 @@ class EchoServer(asyncore.dispatcher):
 
 
 if __name__ == "__main__": 
+    current_dir = os.getcwd()
+    current_folder = current_dir.split('/')[-1]
+    if current_folder == cfg.g_name_of_main_folder:
+        print("Current folder: ", current_folder)
+        print("Change current folder...")
+        os.chdir(current_dir + generator_cfg.g_path_from_script_to_main)
+        print("Current folder: ", os.getcwd)
+
     ## FAKE-UNIT TEST
     ## data = b'mo|1337-7331|deadbeaf'
     #data = b'mo|12|beefdea'
