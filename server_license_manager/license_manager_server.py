@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import asyncore
+import os
 import socket
 import time
 
@@ -8,16 +9,16 @@ import cfg
 from cfg import logger
 import request_handler
 
-
 class EchoHandler(asyncore.dispatcher_with_send):
     def handle_read(self):
         for attempt in range(cfg.g_max_attempts):
             try:
                 data = self.recv(cfg.g_count_of_received_symbols)
-                logger.debug(data)
-                response = request_handler.processingRequest(data)
-                logger.debug(response)
-                self.send(response + b'\0')
+                if len(data) > 1:
+                    logger.debug(data)
+                    response = request_handler.processingRequest(data)
+                    logger.debug(response)
+                    self.send(response + b'\0')
             except Exception as err:
                 logger.error(err)
                 time.sleep(cfg.g_error_sleep_sec)
@@ -41,7 +42,7 @@ class EchoServer(asyncore.dispatcher):
             handler = EchoHandler(sock)
 
 
-if __name__ == "__main__":
+def main():
     current_dir = os.getcwd()
     current_folder = current_dir.split('/')[-1]
     if current_folder == cfg.g_name_of_main_folder:
@@ -67,3 +68,7 @@ if __name__ == "__main__":
         except Exception as err:
             logger.error(err)
             time.sleep(cfg.g_error_sleep_sec)
+
+
+if __name__ == "__main__":
+    main()

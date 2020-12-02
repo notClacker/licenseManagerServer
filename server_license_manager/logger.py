@@ -5,6 +5,7 @@ from logging.handlers import RotatingFileHandler
 g_log_file_path = u'logs/'
 
 g_logging_console = logging.WARNING
+# g_logging_console = logging.DEBUG
 g_log_console_format = "[%(levelname)s]: %(message)s"
 
 g_log_file_format = "[%(levelname)s] - %(asctime)s - %(name)s - : %(message)s in %(pathname)s:%(lineno)d"

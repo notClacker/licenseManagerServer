@@ -21,7 +21,7 @@ def get_response_by_request(request: str) -> str:
 
 def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str) -> str:
     # user_db = db_interface.UserDB()
-    # user_state = user_db.get_user_state(request, license_key, hwid, ip)    
+    # user_state = user_db.get_user_state(request, license_key, hwid, ip)
     user_state = db_interface.get_user_state(request, license_key, hwid, ip)
 
     if user_state == cfg.g_user_state_ok:
@@ -54,12 +54,30 @@ def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str
             return cfg.g_user_state_undefined
     return cfg.g_user_state_undefined
 
+def xor_string(data, key=cfg.xor_key):
+    key = '0'
+    result = "".join(chr(ord(c) ^ ord(key)) for c in data)
+    return result
+
+def encrypt_data(data):
+    return xor_string(data)
+
+def decrypt_data(data):
+    return xor_string(data)
 
 def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
     response = cfg.g_empty_response
     for attempts in range(cfg.g_max_attempts):
         try:
-            data = data_bytes.decode('ascii').lower()
+            """
+                Receive the encrypted data
+            """
+            data = data_bytes.decode('ascii')
+            if data[-1] != cfg.separateSymbol:
+                data = decrypt_data(data)
+
+            logger.info(data)
+            data = data.lower()
             data_list = data.split(cfg.separateSymbol)
 
             # check for hacker
@@ -68,6 +86,10 @@ def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
                 logger.warning(cfg.g_user_state_hacker)
                 remember_hacker()
                 break
+
+            # Empty license key
+            if not len(data_list[1]):
+                return cfg.g_byte_empty_response
 
             request = data_list[0]
             license_key = data_list[1]
@@ -85,4 +107,8 @@ def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
         else:
             break
 
+    """
+        Send the encrypted data
+    """
+    response = encrypt_data(response)
     return bytes(response, encoding = 'ascii')

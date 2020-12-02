@@ -85,12 +85,14 @@ def get_user_state(request: str, license_key: str
                         hwid,
                         cfg.g_resolved_symbols_for_hwid,
                         cfg.g_max_license_hwid_len)):
+        logger.critical("SQL_INJECTION")
         return cfg.g_user_state_hacker
 
     # Parsing the SQL row
     user_row = get_row_by_license_key(license_key)
 
     if len(user_row) == 0:
+        logger.critical("g_user_state_wrong_license_key")
         return cfg.g_user_state_wrong_license_key
 
     # Check for the coder mistake
@@ -112,24 +114,32 @@ def get_user_state(request: str, license_key: str
         # Add hwid user to db
         expiration_date = current_date + datetime.timedelta(days=validity_days_db)
         activate_user_by_id(id_db, hwid, expiration_date)
+        expiration_date = str(expiration_date)
+        logger.warning("ADD_NEW_USER")
         # Continue to check the parameters
     elif hwid != hwid_db:
+        logger.critical("g_user_state_other_pc")
         return cfg.g_user_state_other_pc
 
     # HWID in db
     # Check the expiration date
     expiration_date_obj = datetime.datetime.strptime(expiration_date, '%Y-%m-%d %H:%M:%S.%f')
     if current_date > expiration_date_obj:
+        logger.critical("g_user_state_outdated_license_key")
         return cfg.g_user_state_outdated_license_key
 
     # Check for available subscribe_type existing
-    current_type = cfg.subcribe_types.get(subscribe_type)
-    if current_type == None:
-        logger.critical("Subscribe type DOESN'T exist")
-        return cfg.g_state_coder_error
+    if subscribe_type != None:
+        current_type = cfg.subcribe_types.get(subscribe_type)
+        if current_type == None:
+            logger.critical("Subscribe type DOESN'T exist")
+            return cfg.g_state_coder_error
 
-    # Check the subscribe_type
-    if current_type.get(request) != None:
-        return cfg.g_user_state_ok
-    else:
-        return cfg.g_user_state_other_subscribe_type
+        # Check the subscribe_type
+        if current_type.get(request) != None:
+            return cfg.g_user_state_ok
+        else:
+            logger.critical("g_user_state_other_subscribe_type")
+            return cfg.g_user_state_other_subscribe_type
+
+    return cfg.g_user_state_ok
