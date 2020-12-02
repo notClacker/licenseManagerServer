@@ -13,11 +13,11 @@ class EchoHandler(asyncore.dispatcher_with_send):
     def handle_read(self):
         for attempt in range(cfg.g_max_attempts):
             try:
-                data = self.recv(cfg.g_count_of_received_symbols)    
+                data = self.recv(cfg.g_count_of_received_symbols)
                 logger.debug(data)
                 response = request_handler.processingRequest(data)
                 logger.debug(response)
-                self.send(response + b'\0')                
+                self.send(response + b'\0')
             except Exception as err:
                 logger.error(err)
                 time.sleep(cfg.g_error_sleep_sec)
@@ -31,7 +31,7 @@ class EchoServer(asyncore.dispatcher):
         self.create_socket(socket.AF_INET, socket.SOCK_STREAM)
         self.set_reuse_addr()
         self.bind((host, port))
-        self.listen(11)   
+        self.listen(11)
 
     def handle_accept(self):
         pair = self.accept()
@@ -41,7 +41,7 @@ class EchoServer(asyncore.dispatcher):
             handler = EchoHandler(sock)
 
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     current_dir = os.getcwd()
     current_folder = current_dir.split('/')[-1]
     if current_folder == cfg.g_name_of_main_folder:
@@ -56,10 +56,10 @@ if __name__ == "__main__":
     #response = request_handler.processingRequest(data)
     #logger.debug(response)
     #exit(0)
-    ## DELETE    
+    ## DELETE
 
     while True:
-        try:            
+        try:
             logger.info("Server is started")
             server = EchoServer(cfg.HOST, cfg.PORT)
             asyncore.loop()
@@ -67,4 +67,3 @@ if __name__ == "__main__":
         except Exception as err:
             logger.error(err)
             time.sleep(cfg.g_error_sleep_sec)
-
