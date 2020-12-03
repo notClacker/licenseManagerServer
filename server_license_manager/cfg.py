@@ -1,7 +1,8 @@
-try:
-    from logger import logger
-except Exception:
-    from server_license_manager.logger import logger
+from logger import logger
+# try:
+#     from logger import logger
+# except Exception:
+#     from server_license_manager.logger import logger
 
 # data to configurate server to working
 separateSymbol = '|'
@@ -54,8 +55,8 @@ g_resolved_symbols_for_key =    "0123456789-abcdef"    # hexdigits + '-'
 g_max_license_key_len = 30  # example of key is 01234-56789-abcde-f0123-45678
 
 
-map_base = ("mo0", "4455")
-player_base = ("mo1", "9889")
+map_base = ("mo0", "1ed4458")
+player_base = ("mo1", "231ec48")
 admin_base = ("mo3", "1337")
 offsets = dict([map_base, player_base, admin_base])
 
