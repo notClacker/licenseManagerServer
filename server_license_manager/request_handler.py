@@ -110,5 +110,6 @@ def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
     """
         Send the encrypted data
     """
+    logger.debug("RESPONSE: " + response)
     response = encrypt_data(response)
     return bytes(response, encoding = 'ascii')

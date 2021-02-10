@@ -16,8 +16,7 @@ class EchoHandler(asyncore.dispatcher_with_send):
                 data = self.recv(cfg.g_count_of_received_symbols)
                 if len(data) > 1:
                     logger.debug(data)
-                    response = request_handler.processingRequest(data)
-                    logger.debug(response)
+                    response = request_handler.processingRequest(data)                    
                     self.send(response + b'\0')
             except Exception as err:
                 logger.error(err)
