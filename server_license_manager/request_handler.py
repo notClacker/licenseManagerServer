@@ -55,16 +55,10 @@ def get_response_by_user_data(request: str, license_key: str, hwid: str, ip: str
     return cfg.g_user_state_undefined
 
 def xor_string(data, key=cfg.xor_key):
-    key = '0'
     result = "".join(chr(ord(c) ^ ord(key)) for c in data)
     return result
 
 def encrypt_data(data):
-    print("==========XOOOR================")
-    print(xor_string(data))
-    print(xor_string(xor_string(data)))
-    print("==========XOOOR================")
-
     return xor_string(data)
 
 def decrypt_data(data):
