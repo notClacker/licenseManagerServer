@@ -55,8 +55,8 @@ g_resolved_symbols_for_key =    "0123456789-abcdef"    # hexdigits + '-'
 g_max_license_key_len = 30  # example of key is 01234-56789-abcde-f0123-45678
 
 
-map_base = ("mo0", str(int("1ed4458", 16)))
-player_base = ("mo1", str(int("231ec48", 16)))
+map_base = ("mo0", str(int("1f44d58", 16)))
+player_base = ("mo1", str(int("20bbdf0", 16)))
 nickname_base = ("nb", str(int("20BBDF0", 16)))
 admin_base = ("mo3", "1337")
 offsets = dict([map_base, player_base, admin_base, nickname_base])
