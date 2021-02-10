@@ -60,6 +60,11 @@ def xor_string(data, key=cfg.xor_key):
     return result
 
 def encrypt_data(data):
+    print("==========XOOOR================")
+    print(xor_string(data))
+    print(xor_string(xor_string(data)))
+    print("==========XOOOR================")
+
     return xor_string(data)
 
 def decrypt_data(data):
