@@ -58,11 +58,18 @@ def xor_string(data, key=cfg.xor_key):
     result = "".join(chr(ord(c) ^ ord(key)) for c in data)
     return result
 
+# def encrypt_data(data):
+#     return xor_string(data)
+#
+# def decrypt_data(data):
+#     return xor_string(data)
+
 def encrypt_data(data):
-    return xor_string(data)
+    return "".join((chr(ord(c) - cfg.cypherOffset)) for c in data)
 
 def decrypt_data(data):
-    return xor_string(data)
+    return "".join((chr(ord(c) + cfg.cypherOffset)) for c in data)
+
 
 def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
     response = cfg.g_empty_response

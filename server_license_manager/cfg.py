@@ -13,6 +13,7 @@ g_user_db_path = "user_db.sql"
 g_empty_response = '0'
 g_byte_empty_response = b'0'
 xor_key = '0'
+cypherOffset = 8
 
 # Folder cfg
 g_name_of_main_folder = "licenseManagerServer"
