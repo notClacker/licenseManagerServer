@@ -5,6 +5,7 @@ from logger import logger
 #     from server_license_manager.logger import logger
 
 # data to configurate server to working
+version = "1.0"
 separateSymbol = '|'
 HOST = '0.0.0.0'
 PORT = 32222
@@ -14,6 +15,7 @@ g_empty_response = '0'
 g_byte_empty_response = b'0'
 xor_key = '0'
 cypherOffset = 8
+site_name = "superscp.com"
 
 # Folder cfg
 g_name_of_main_folder = "licenseManagerServer"
@@ -32,6 +34,8 @@ g_user_state_other_pc = "other_pc"
 g_user_state_hacker = "hacker"
 g_user_state_undefined = "undefined_behavior"
 g_state_coder_error = "coder_error"
+
+g_user_state_outdated_version = "Pls, download new version through " + site_name + "!"
 
 class db_rows(object):
     ID = 0
