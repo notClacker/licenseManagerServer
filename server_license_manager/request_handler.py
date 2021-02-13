@@ -70,6 +70,11 @@ def encrypt_data(data):
 def decrypt_data(data):
     return "".join((chr(ord(c) + cfg.cypherOffset)) for c in data)
 
+def check_version(version) -> bool:
+    main_version = int(version.split('.')[0])
+    g_main_version = int(cfg.version.split('.')[0])
+    return (main_version == g_main_version)
+
 
 def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
     response = cfg.g_empty_response
@@ -100,8 +105,14 @@ def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
             request = data_list[0]
             license_key = data_list[1]
             hwid = data_list[2]
+            version = data_list[3]
 
-            response = get_response_by_user_data(request, license_key, hwid, ip)
+            if check_version(version):
+                response = get_response_by_user_data(request, license_key, hwid, ip)
+            else:
+                logger.warning([data_bytes, ip])
+                logger.warning(cfg.g_user_state_outdated_version)
+                response = cfg.g_user_state_outdated_version
 
         except Exception as e:
             args = e.args
@@ -112,6 +123,10 @@ def processingRequest(data_bytes: str, ip="127.0.0.1") -> bytes:
             time.sleep(cfg.g_error_sleep_sec)
         else:
             break
+
+    # debug
+    #response = "Update your application!"
+    # debug
 
     """
         Send the encrypted data
